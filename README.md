@@ -51,7 +51,7 @@ git clone https://github.com/Diefunction/athackcon.git
 After cloning the repository change the current directory to the repository directory.
 # POLL
 ```bash
-cd ./athack/poll
+cd ./athackcon/poll
 ```
 Builds Docker images from Dockerfiles.
 ```bash
