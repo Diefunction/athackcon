@@ -46,7 +46,7 @@ sudo apt install git
 ```
 Clone the repository.
 ```bash
-git clone https://github.com/Diefunction/athack.git
+git clone https://github.com/Diefunction/athackcon.git
 ```
 After cloning the repository change the current directory to the repository directory.
 # POLL
