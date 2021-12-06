@@ -1,0 +1,1 @@
+AtHackCTF{Dummy_Flag}

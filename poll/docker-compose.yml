@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: test
+      MONGO_INITDB_ROOT_PASSWORD: test
+  node:
+    build:
+      dockerfile: docker/node/Dockerfile
+      context: .
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:1234:8000"
+    depends_on:
+      - mongo
